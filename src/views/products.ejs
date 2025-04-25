@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Products</title>
+    <link rel="icon" href="/images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1> เมนูสินค้า </h1>
+    <div class="container">
+        <% productsDatabase.forEach(product=> { %>
+            <div class="card">
+                <a href="/products/<%= product.id %>">
+                    <img src="<%= product.productImage %>" alt="<%= product.productTitle %>">
+                    <h4>
+                        <%= product.productTitle %>
+                    </h4>
+                </a>
+                <p>
+                    <%= product.productAbout %>
+                </p>
+                <!--
+                <p>
+                    <%= product.productDescription %>
+                </p>
+                -->
+                <p class="price">ราคา: <%= product.productPrice %> บาท</p>
+                <a href="/products/<%= product.id %>">
+                    <button class="btn">ซื้อเลย</button>
+                </a>
+            </div>
+            <% }); %>
+    </div>
+
+    <!--
+<% productsDatabase.map((product)=>{ %>
+    <h4>
+        <a href="/products/<%=product.id%>">
+            <%=product.productTitle %>
+        </a>
+    </h4>
+    <img src="<%= product.productImage %>" alt="<%= product.productTitle %>" style="width:200px; height:auto;">
+    <p>
+        <%=product.productDescription %>
+    </p>
+    <p>ราคา : <%=product.productPrice %> บาท</p>
+
+    <br>
+    <%})%>
+-->
+</body>
+
+</html>

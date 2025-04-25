@@ -1,0 +1,92 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column; /* หากต้องการจัดเรียงหลายองค์ประกอบในแนวตั้ง */
+    /*justify-content: center;*/
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* เพิ่มสีพื้นหลัง */
+    
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    width: 800px; /* เพิ่มขนาดการ์ด */
+    padding:  30px; /* ลดระยะ padding ของการ์ด */
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem; /* เพิ่มระยะห่างด้านล่าง */
+    text-transform: uppercase; /* เปลี่ยนข้อความเป็นตัวพิมพ์ใหญ่ */
+}
+
+.card img {
+    display: block; /* ทำให้รูปภาพเป็นบล็อกสำหรับจัดกึ่งกลาง */
+    margin: 0 auto; /* จัดกึ่งกลางในแนวนอน */
+    max-width: 100%; /* ปรับความกว้างสูงสุดของรูปภาพไม่เกินพื้นที่ */
+    max-height: 500px; /* จำกัดความสูงของรูปภาพ */
+    height: auto; /* คงอัตราส่วนความสูง */
+    border-radius: 8px; /* เพิ่มมุมโค้ง */
+}
+
+
+.card h4 {
+    font-size: 2rem; /* ขนาดใหญ่ */
+    font-weight: bold; /* ตัวหนา */
+    color: #333; /* สีเข้ม */
+    margin-bottom: 15px; /* ระยะห่างด้านล่าง */
+    text-transform: uppercase; /* ตัวพิมพ์ใหญ่ทั้งหมด */
+    letter-spacing: 1.5px; /* ระยะห่างระหว่างตัวอักษร */
+    margin-top: 10px; /* เพิ่มระยะห่างเล็กน้อยด้านบน */
+}
+.card h5 {
+    font-size: 1.5rem; /* ขนาดใหญ่ */
+    font-weight: bold; /* ตัวหนา */
+    color: #444; /* สีเข้ม */
+    margin-bottom: 15px; /* ระยะห่างด้านล่าง */
+    text-transform: uppercase; /* ตัวพิมพ์ใหญ่ทั้งหมด */
+    letter-spacing: 1.5px; /* ระยะห่างระหว่างตัวอักษร */
+    margin-top: 10px; /* เพิ่มระยะห่างเล็กน้อยด้านบน */
+}
+
+
+.card p {
+    font-size: 1.2rem; /* ขนาดมาตรฐาน */
+    line-height: 1.6; /* ระยะห่างระหว่างบรรทัด */
+    color: #555; /* สีข้อความเทา */
+    margin-bottom: 10px; /* ระยะห่างระหว่างย่อหน้า */
+}
+
+.card p:last-of-type {
+    font-weight: bold; /* ตัวหนาสำหรับราคา */
+    color: #d9534f; /* สีแดงสำหรับราคา */
+    font-size: 1.5rem; /* ขนาดใหญ่กว่าข้อความทั่วไป */
+}
+
+.card p span {
+    color: #333; /* สีข้อความใน span */
+    font-weight: normal; /* ตัวอักษรธรรมดา */
+}
+
+
+

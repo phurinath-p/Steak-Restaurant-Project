@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "productTitle": "สเต๊กไก่ย่างโรสแมรี่",
+        "productAbout": "ไก่นุ่มหนังกรอบ หอมสมุนไพรแท้",
+        "productDescription": "สเต๊กไก่ส่วนสะโพก ย่างจนหนังกรอบ เนื้อนุ่มฉ่ำ หมักด้วยเครื่องเทศและโรสแมรี่สด เสิร์ฟพร้อมเลมอนหั่นฝานและผักย่าง",
+        "productPrice": 149,
+        "productImage": "/images/product1.jpg"
+    },
+    {
+        "id": 1,
+        "productTitle": "พอร์คช็อปย่างชิ้นหนา",
+        "productAbout": "หมูชิ้นใหญ่ ย่างหอม ฉ่ำนุ่ม",
+        "productDescription": "พอร์คช็อปเนื้อหมูติดกระดูก ย่างสุกพอดี ราดน้ำเกรวี่สูตรพิเศษ กลิ่นหอมด้วยโรสแมรี่ เสิร์ฟคู่มะเขือเทศอบ",
+        "productPrice": 189,
+        "productImage": "/images/product2.jpg"
+    },
+    {
+        "id": 2,
+        "productTitle": "สเต๊กหมูพริกไทยดำ",
+        "productAbout": "หมูนุ่มเคลือบซอสเข้มข้น",
+        "productDescription": "หมูส่วนสันนอกหมักพริกไทยดำ ย่างจนหอม เนื้อฉ่ำ ไม่แห้ง ทานคู่กับมันบดหรือข้าวโพดอบ",
+        "productPrice": 169,
+        "productImage": "/images/product3.jpg"
+    },
+    {
+        "id": 3,
+        "productTitle": "สเต๊กริบอายย่างไฟแรง",
+        "productAbout": "ริบอายเนื้อนุ่ม หอมกลิ่นย่างไฟ",
+        "productDescription": "สเต๊กเนื้อริบอายชิ้นหนา ย่างแบบมีเดียมแรร์ หอมกลิ่นถ่าน เสิร์ฟพร้อมผักย่างและมันฝรั่งอบ",
+        "productPrice": 299,
+        "productImage": "/images/product4.jpg"
+    },
+    {
+        "id": 4,
+        "productTitle": "ซี่โครงหมูบาร์บีคิวย่างกระทะร้อน",
+        "productAbout": "ซี่โครงเนื้อแน่น ชุ่มซอสเข้มข้น",
+        "productDescription": "ซี่โครงหมูหมักซอสบาร์บีคิวสูตรลับ ย่างกระทะร้อนจนหอมฉุย เสิร์ฟพร้อมเฟรนช์ฟรายส์และผักย่าง",
+        "productPrice": 219,
+        "productImage": "/images/product5.jpg"
+    },
+    {
+        "id": 5,
+        "productTitle": "สเต๊กเนื้อเซอร์ลอยน์มีเดียมแรร์",
+        "productAbout": "เนื้อแน่นฉ่ำ หั่นชิ้นพอดีคำ",
+        "productDescription": "เซอร์ลอยน์เนื้อวัวคัดพิเศษ ย่างแบบมีเดียมแรร์ หั่นชิ้นพอดีคำ เสิร์ฟบนเขียงไม้พร้อมโรสแมรี่สด",
+        "productPrice": 279,
+        "productImage": "/images/product6.jpg"
+    },
+    {
+        "id": 6,
+        "productTitle": "สเต๊กเนื้อโทมาฮอว์กพรีเมียม",
+        "productAbout": "เนื้อหนา เต็มคำ หอมกลิ่นย่าง",
+        "productDescription": "โทมาฮอว์กเนื้อวัวนำเข้า ชิ้นใหญ่ย่างสุกแบบมีเดียม เสิร์ฟคู่กับซอสสมุนไพรเขียวสไตล์อาร์เจนตินา",
+        "productPrice": 599,
+        "productImage": "/images/product7.jpg"
+    },
+    {
+        "id": 7,
+        "productTitle": "แซลมอนย่างซอสเลมอนกระเทียม",
+        "productAbout": "แซลมอนสด ย่างหอม กลิ่นเลมอน",
+        "productDescription": "แซลมอนชิ้นใหญ่ ย่างแบบหนังกรอบ เนื้อในนุ่ม หอมกระเทียมและเลมอนฝาน ทานคู่ข้าวหรือมันบดได้ดีเยี่ยม",
+        "productPrice": 249,
+        "productImage": "/images/product8.jpg"
+    },
+    {
+        "id": 8,
+        "productTitle": "ปลาดอรี่ราดซอสพริกไทยดำ",
+        "productAbout": "ปลานุ่มละลายในปาก ซอสรสเข้ม",
+        "productDescription": "ปลาดอรี่ชิ้นใหญ่ทอดกรอบนอกนุ่มใน ราดด้วยซอสพริกไทยดำหอมๆ เสิร์ฟพร้อมผักสดและเฟรนช์ฟรายส์",
+        "productPrice": 139,
+        "productImage": "/images/product9.jpg"
+    }
+]

@@ -24,11 +24,6 @@
                 <p>
                     <%= product.productAbout %>
                 </p>
-                <!--
-                <p>
-                    <%= product.productDescription %>
-                </p>
-                -->
                 <p class="price">ราคา: <%= product.productPrice %> บาท</p>
                 <a href="/products/<%= product.id %>">
                     <button class="btn">ซื้อเลย</button>
@@ -37,22 +32,6 @@
             <% }); %>
     </div>
 
-    <!--
-<% productsDatabase.map((product)=>{ %>
-    <h4>
-        <a href="/products/<%=product.id%>">
-            <%=product.productTitle %>
-        </a>
-    </h4>
-    <img src="<%= product.productImage %>" alt="<%= product.productTitle %>" style="width:200px; height:auto;">
-    <p>
-        <%=product.productDescription %>
-    </p>
-    <p>ราคา : <%=product.productPrice %> บาท</p>
-
-    <br>
-    <%})%>
--->
 </body>
 
 </html>

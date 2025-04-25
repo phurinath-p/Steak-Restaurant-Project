@@ -19,35 +19,35 @@
             color: #333;
             text-align: center;
             overflow: hidden;
-            /* ซ่อนขอบฟุ้ง */
+ 
             position: relative;
         }
 
         .background {
             position: absolute;
             top: -10%;
-            /* ขยายขอบบน */
+  
             left: -10%;
-            /* ขยายขอบซ้าย */
+  
             width: 120%;
-            /* ขยายความกว้าง */
+
             height: 120%;
-            /* ขยายความสูง */
+
             background-image: url('/images/BG.png');
-            /* ใช้ path ของภาพ */
+
             background-size: cover;
             background-position: center;
             filter: blur(10px) brightness(0.7);
-            /* เบลอและลดความสว่าง */
+       
             z-index: -1;
-            /* ส่งเลเยอร์นี้ไปข้างหลัง */
+          
         }
 
         .card-logo {
             max-width: 150px;
-            /* กำหนดขนาดรูปภาพ */
+   
             height: auto;
-            /* ให้ปรับขนาดตามสัดส่วน */
+       
             transition: transform 0.3s ease;
         }
 
@@ -57,7 +57,7 @@
 
         .card {
             background-color: rgba(255, 255, 255, 0.7);
-            /* เพิ่มความโปร่งแสง */
+       
             border: 1px solid #ddd;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -65,7 +65,7 @@
             text-align: center;
             transition: transform 0.2s, box-shadow 0.2s;
             z-index: 1;
-            /* นำ card ไว้เหนือพื้นหลัง */
+        
             width: 600px;
         }
 
@@ -112,17 +112,3 @@
 </body>
 
 </html>
-
-
-
- <!-- แสดงข้อความต้อนรับ 
- <h1>Hello, <%= username %>!</h1>
-
- แสดงรายการลูกค้าในรูปแบบลิสต์ 
- <h2>Customer List:</h2>
- <ul>
-     <% customers.forEach(customer => { %>
-         <li><%= customer %></li>
-     <% }) %>
- </ul>
--->
